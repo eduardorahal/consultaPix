@@ -6,13 +6,15 @@ export async function GET(request) {
     let lista = [];
     let cpfCnpj = searchParams.get('cpfCnpj');
     let motivo = searchParams.get('motivo');
+    var credentials = btoa(process.env.usernameBC + ':' + process.env.passwordBC);
+    var basicAuth = 'Basic ' + credentials;
     let config = {
         method: 'get',
         maxBodyLength: Infinity,
         url: 'https://www3.bcb.gov.br/bc_ccs/rest/consultar-vinculos-pix?cpfCnpj=' + cpfCnpj + '&motivo=' + motivo,
         headers: {
             'Accept': 'application/json',
-            'Authorization': 'Basic ZWp1ZnMucy1hcGljY3M6Ym9rYTIxMjM=',
+            'Authorization': basicAuth,
         }
     };
 
