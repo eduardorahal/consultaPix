@@ -1,6 +1,9 @@
+# Consulta PIX - LAB-LD da Polícia Civil de Santa Catarina
+
 Consulta PIX desenvolvida no Laboratório de Tecnologia Contra Lavagem de Dinheiro da Polícia Civil de Santa Catarina.
-Desenvolvedor: Agente de Polícia Eduardo Rahal (eduardo-rahal@pc.sc.gov.br)
-Coordenador: Delegado de Polícia Rodrigo Schneider (rodrigo-schneider@pc.sc.gov.br)
+
+- Desenvolvedor: Agente de Polícia Eduardo Rahal (eduardo-rahal@pc.sc.gov.br)
+- Coordenador: Delegado de Polícia Rodrigo Schneider (rodrigo-schneider@pc.sc.gov.br)
 
 O uso é restrito às Polícias Judiciárias e demais órgãos cadastradas junto ao Banco Central para efetuar tais consultas.
 Este código não deve ser compartilhado para além deste público alvo.
